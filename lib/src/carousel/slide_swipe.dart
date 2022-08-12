@@ -79,8 +79,7 @@ class SlideSwipe extends StatelessWidget {
                       (props.axis == Axis.vertical ? 1.0 : value),
                   width: props.width * value,
                   child: props.children[index],
-                  alignment: Alignment.center,
-                ),
+                  alignment: A
               ),
             ],
           ),
